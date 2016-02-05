@@ -16,6 +16,8 @@
 		9B7A30F81C634516007D6B54 /* NearbyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A30F71C634516007D6B54 /* NearbyController.swift */; };
 		9B7A30FA1C634523007D6B54 /* EatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A30F91C634523007D6B54 /* EatingController.swift */; };
 		9B7A30FC1C63452F007D6B54 /* DrinkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A30FB1C63452F007D6B54 /* DrinkingController.swift */; };
+		9B7A31001C647720007D6B54 /* NearByNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A30FF1C647720007D6B54 /* NearByNavView.swift */; };
+		9B7A31031C648374007D6B54 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A31021C648374007D6B54 /* BaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9B7A30F71C634516007D6B54 /* NearbyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyController.swift; sourceTree = "<group>"; };
 		9B7A30F91C634523007D6B54 /* EatingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatingController.swift; sourceTree = "<group>"; };
 		9B7A30FB1C63452F007D6B54 /* DrinkingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkingController.swift; sourceTree = "<group>"; };
+		9B7A30FF1C647720007D6B54 /* NearByNavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByNavView.swift; sourceTree = "<group>"; };
+		9B7A31021C648374007D6B54 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 		9B7A30F21C6343A7007D6B54 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9B7A31011C648362007D6B54 /* Base */,
 				9B7A30F71C634516007D6B54 /* NearbyController.swift */,
 				9B7A30F91C634523007D6B54 /* EatingController.swift */,
 				9B7A30FB1C63452F007D6B54 /* DrinkingController.swift */,
@@ -152,6 +157,7 @@
 		9B7A30F31C6343B3007D6B54 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9B7A30FE1C647706007D6B54 /* NavBar */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -161,6 +167,22 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		9B7A30FE1C647706007D6B54 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A30FF1C647720007D6B54 /* NearByNavView.swift */,
+			);
+			name = NavBar;
+			sourceTree = "<group>";
+		};
+		9B7A31011C648362007D6B54 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A31021C648374007D6B54 /* BaseController.swift */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,9 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7A31001C647720007D6B54 /* NearByNavView.swift in Sources */,
 				9B7A30F81C634516007D6B54 /* NearbyController.swift in Sources */,
 				9B7A30FC1C63452F007D6B54 /* DrinkingController.swift in Sources */,
 				9B7A30C31C634302007D6B54 /* AppDelegate.swift in Sources */,
+				9B7A31031C648374007D6B54 /* BaseController.swift in Sources */,
 				9B7A30FA1C634523007D6B54 /* EatingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +548,7 @@
 				9B7A30E91C634302007D6B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B7A30EA1C634302007D6B54 /* Build configuration list for PBXNativeTarget "SearchNearbyTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +557,7 @@
 				9B7A30EC1C634302007D6B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B7A30ED1C634302007D6B54 /* Build configuration list for PBXNativeTarget "SearchNearbyUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +566,7 @@
 				9B7A30EF1C634302007D6B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DrinkingController: UIViewController {
+class DrinkingController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,34 +1,19 @@
 //
-//  NearbyController.swift
+//  BaseController.swift
 //  SearchNearby
 //
-//  Created by 马超 on 16/2/4.
+//  Created by 马超 on 16/2/5.
 //  Copyright © 2016年 RexMa. All rights reserved.
 //
 
 import UIKit
 
-class NearbyController: BaseController, NearByNavViewDelegate {
-    var navView: NearByNavView?
-    
+class BaseController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.navigationController?.navigationBarHidden = true
         // Do any additional setup after loading the view.
-        customNavView()
-    }
-    
-    func customNavView() {
-        navView = NearByNavView(frame: CGRectMake(0, 0 , kScreenWidth, 64))
-        navView?.backgroundColor = UIColor.orangeColor()
-        navView?.setRightButtonImage(UIImage(named: "icon_fill_search")!);
-        navView?.delegate = self
-        self.view.addSubview(navView!)
-    }
-    
-    //MARK:NearByNavViewDelegate
-    func rightButtonPressed(button: UIButton) {
-        
     }
 
     override func didReceiveMemoryWarning() {

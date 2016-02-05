@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EatingController: UIViewController {
+class EatingController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
