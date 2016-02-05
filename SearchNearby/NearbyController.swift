@@ -28,7 +28,8 @@ class NearbyController: BaseController, NearByNavViewDelegate {
     
     //MARK:NearByNavViewDelegate
     func rightButtonPressed(button: UIButton) {
-        
+        let searchVC = SearchController()
+        self.navigationController?.pushViewController(searchVC, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

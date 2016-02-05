@@ -24,7 +24,7 @@ class NearByNavView: UIView {
         let font = UIFont.systemFontOfSize(14.0)
         
         rightButton = UIButton.init(type: UIButtonType.Custom)
-        rightButton.frame = CGRectMake(kScreenWidth - 50, 30, 40, 40)
+        rightButton.frame = CGRectMake(kScreenWidth - 50, 20, 40, 40)
         rightButton.exclusiveTouch = true
         rightButton.titleLabel?.font = font
         rightButton.addTarget(self, action: "rightButtonClick", forControlEvents: UIControlEvents.TouchUpInside)

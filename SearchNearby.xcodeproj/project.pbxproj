@@ -18,6 +18,7 @@
 		9B7A30FC1C63452F007D6B54 /* DrinkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A30FB1C63452F007D6B54 /* DrinkingController.swift */; };
 		9B7A31001C647720007D6B54 /* NearByNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A30FF1C647720007D6B54 /* NearByNavView.swift */; };
 		9B7A31031C648374007D6B54 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A31021C648374007D6B54 /* BaseController.swift */; };
+		9B7A31061C648788007D6B54 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A31051C648788007D6B54 /* SearchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9B7A30FB1C63452F007D6B54 /* DrinkingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkingController.swift; sourceTree = "<group>"; };
 		9B7A30FF1C647720007D6B54 /* NearByNavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByNavView.swift; sourceTree = "<group>"; };
 		9B7A31021C648374007D6B54 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		9B7A31051C648788007D6B54 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				9B7A30F71C634516007D6B54 /* NearbyController.swift */,
 				9B7A30F91C634523007D6B54 /* EatingController.swift */,
 				9B7A30FB1C63452F007D6B54 /* DrinkingController.swift */,
+				9B7A31051C648788007D6B54 /* SearchController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				9B7A31001C647720007D6B54 /* NearByNavView.swift in Sources */,
 				9B7A30F81C634516007D6B54 /* NearbyController.swift in Sources */,
 				9B7A30FC1C63452F007D6B54 /* DrinkingController.swift in Sources */,
+				9B7A31061C648788007D6B54 /* SearchController.swift in Sources */,
 				9B7A30C31C634302007D6B54 /* AppDelegate.swift in Sources */,
 				9B7A31031C648374007D6B54 /* BaseController.swift in Sources */,
 				9B7A30FA1C634523007D6B54 /* EatingController.swift in Sources */,
