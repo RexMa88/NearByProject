@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4B22781C7437E900BA3628 /* DrinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B22761C7437E900BA3628 /* DrinkCell.swift */; };
+		9B4B22791C7437E900BA3628 /* DrinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4B22771C7437E900BA3628 /* DrinkCell.xib */; };
 		9B7A30C31C634302007D6B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A30C21C634302007D6B54 /* AppDelegate.swift */; };
 		9B7A30C81C634302007D6B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A30C61C634302007D6B54 /* Main.storyboard */; };
 		9B7A30CA1C634302007D6B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A30C91C634302007D6B54 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B4B22761C7437E900BA3628 /* DrinkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkCell.swift; sourceTree = "<group>"; };
+		9B4B22771C7437E900BA3628 /* DrinkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrinkCell.xib; sourceTree = "<group>"; };
 		9B7A30BF1C634302007D6B54 /* SearchNearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchNearby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7A30C21C634302007D6B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B7A30C71C634302007D6B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B4B22741C74365C00BA3628 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9B4B22751C7437BE00BA3628 /* DrinkCell */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B22761C7437E900BA3628 /* DrinkCell.swift */,
+				9B4B22771C7437E900BA3628 /* DrinkCell.xib */,
+			);
+			name = DrinkCell;
+			sourceTree = "<group>";
+		};
 		9B7A30B61C634302007D6B54 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +127,7 @@
 		9B7A30C11C634302007D6B54 /* SearchNearby */ = {
 			isa = PBXGroup;
 			children = (
+				9B4B22741C74365C00BA3628 /* Utils */,
 				9B7A30F41C6343B7007D6B54 /* Model */,
 				9B7A30F31C6343B3007D6B54 /* View */,
 				9B7A30F21C6343A7007D6B54 /* Controller */,
@@ -160,6 +181,7 @@
 		9B7A30F31C6343B3007D6B54 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9B4B22751C7437BE00BA3628 /* DrinkCell */,
 				9B7A30FE1C647706007D6B54 /* NavBar */,
 			);
 			name = View;
@@ -294,6 +316,7 @@
 			files = (
 				9B7A30CD1C634302007D6B54 /* LaunchScreen.storyboard in Resources */,
 				9B7A30CA1C634302007D6B54 /* Assets.xcassets in Resources */,
+				9B4B22791C7437E900BA3628 /* DrinkCell.xib in Resources */,
 				9B7A30C81C634302007D6B54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +344,7 @@
 			files = (
 				9B7A31001C647720007D6B54 /* NearByNavView.swift in Sources */,
 				9B7A30F81C634516007D6B54 /* NearbyController.swift in Sources */,
+				9B4B22781C7437E900BA3628 /* DrinkCell.swift in Sources */,
 				9B7A30FC1C63452F007D6B54 /* DrinkingController.swift in Sources */,
 				9B7A31061C648788007D6B54 /* SearchController.swift in Sources */,
 				9B7A30C31C634302007D6B54 /* AppDelegate.swift in Sources */,
